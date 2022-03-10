@@ -36,6 +36,6 @@ workflows:
     jobs:
     - deploy-cfn:
         context: 
-          - aws-instance-scheduler
-        stack-name1: My-Instnace-Scheduler
+          - aws-personal
+        stack-name1: My-Instnace-Scheduler 1
         stack-name2: My-Custom-Instance-Schedule
